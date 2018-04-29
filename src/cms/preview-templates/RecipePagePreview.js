@@ -7,7 +7,7 @@ const RecipePreview = ({ entry, widgetFor }) => (
     title={entry.getIn(["data", "title"])}
     description={entry.getIn(["data", "description"])}
     ingredients={entry.getIn(["data", "ingredients"])}
-    directions={entry.getIn(["data", "directions"])}
+    directions={entry.getIn(["data", "body"])}
     dates={entry.getIn(["data", "dates"])}
     tags={entry.getIn(["data", "tags"])}
   />
