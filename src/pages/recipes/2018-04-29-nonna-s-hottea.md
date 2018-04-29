@@ -1,5 +1,5 @@
 ---
-templateKey: recipe
+templateKey: recipe-page
 title: Nonna's Hottea
 description: HOTTEAAAAA
 image: /img/products-full-width.jpg
